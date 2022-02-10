@@ -1,0 +1,21 @@
+body{
+	background-color: #005C45;
+}
+.title>h1{
+	color: white;
+	line-height: 70px;
+}
+.title>h1>span{
+	color: #F1B980;
+}
+
+.log-in-button{
+	background-color: #028363;
+}
+
+/* Toast Style */
+#toast-container > .toast-success { 
+	background-color: #00d873ab; 
+	color: #ffffff;
+	
+} 	

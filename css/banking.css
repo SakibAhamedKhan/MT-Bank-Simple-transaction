@@ -1,0 +1,32 @@
+
+body{
+	background-color: #005C45;
+}
+.money{
+	color: #F1B980;
+}
+.balance-transaction{
+	color: #005C45;
+}
+
+.deposite-withdraw{
+	color: #005C45;
+}
+
+.submit-button{
+	background-color: #057e60;
+}
+
+/* Turn off Number input Spinners */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* Toast Style */
+#toast-container > .toast-success { 
+	background-color: #00d873ab; 
+	color: #ffffff;
+	
+} 

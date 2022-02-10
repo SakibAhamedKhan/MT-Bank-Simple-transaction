@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MT Bank</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/login.css">
+	<script src="https://kit.fontawesome.com/44a290f6bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		
+	</header>
+	<main class="h-screen">
+		
+		<section class="h-screen bg-white-100 w-4/5 mx-auto p-4 md:p-8 lg:p-8 grid grid-cols-1 lg:grid-cols-2 lg:gap-14 my-auto sm:-mt-12 -mt-12  lg:mt-0">
+			<div class="title h-3/4 grid grid-cols-1 my-auto content-end lg:content-center">
+				<h1 class="font-bold text-4xl md:text-5xl lg:text-6xl text-center ">Welcome to <span class="font-semibold ">MT Bank</span></h1>
+			</div>
+			<div class="bg-white h-4/5 rounded grid grid-cols-1 my-auto content-center p-6 " >
+				<h3 class="text-2xl mb:text-4xl lg:text-4xl mb-12 text-center font-bold" style="color:#005C45">Log in</h3>
+				<form action="">
+					<p class="mb-2 text-sm" style="color:#005C45">Your email</p>
+					<input id="user-email" class="drop-shadow-md block rounded mb-6 p-2 w-full border" type="email" placeholder="email@site.com" required>
+					<p class="mb-2 text-sm" style="color:#005C45">Password</p>
+					<input id="user-password" class="drop-shadow-md block rounded p-2 mb-6  w-full border" type="password" name=""  placeholder="8+ characters required" required>
+				</form>
+				<button id="login-submit" class="log-in-button p-3  rounded text-white font-semibold">Log in</button>
+			</div>
+			
+		</section>
+	</main>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" ></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+	<script src="js/login.js"></script>
+</body>
+</html>

@@ -55,4 +55,5 @@ if(logoutSuccess==1){
 //when reload
 if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
 	window.location.replace("index.html?logoutSuccess=0");
+	console.log('Reloaded');
 }
